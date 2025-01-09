@@ -69,9 +69,3 @@ This project is licensed under the MIT License.
 
 Happy scraping!
 
-
-
-
-- **Usage**: Details how to interact with the application's features, emphasizing key functionalities.
-
-- **Troubleshooting**: Offers guidance for resolving common issues and encourages engaging with the repository for support.
