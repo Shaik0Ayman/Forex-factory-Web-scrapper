@@ -68,15 +68,9 @@ This project is licensed under the MIT License.
 ---
 
 Happy scraping!
-```
 
-### Key Sections Explained:
 
-- **Prerequisites** section outlines necessary software and hardware requirements.
-  
-- **Installation Instructions**: Detailed steps to guide users through downloading, extracting, and setting up the project.
 
-- **Running the Application**: Provides straightforward steps on how to launch and use the application.
 
 - **Usage**: Details how to interact with the application's features, emphasizing key functionalities.
 
