@@ -162,7 +162,6 @@ def save_to_csv(data, filename):
 def start_scraping():
     url = 'https://www.forexfactory.com/calendar'
     filename = 'forex_calendar.csv'
-    global high_impact_filename 
     high_impact_filename = 'high_impact_events.csv'
     
     data = scrape_with_selenium(url)
@@ -173,13 +172,12 @@ def start_scraping():
         messagebox.showinfo("Success", f"Data saved to {filename}")
         
         # Filter high impact events and save to another CSV
-        global high_impact_events
         high_impact_events = [row for row in data if row[4] == 'High']
         save_to_csv(high_impact_events, high_impact_filename)
         print(f"High impact data saved to {high_impact_filename}")
         
         # Add high impact events to Google Calendar
-        #add_events_to_google_calendar(high_impact_events)
+        add_events_to_google_calendar(high_impact_events)
     else:
         messagebox.showerror("Error", "Failed to scrape data.")
 
@@ -221,7 +219,7 @@ def main():
     show_high_impact_button = tk.Button(root, text="Show High Impact Events", command=lambda: display_csv_data('high_impact_events.csv'), bg='dark red', fg='white')
     show_high_impact_button.pack(pady=5)
     
-    add_to_calendar_button = tk.Button(root, text="Add High Impact Events to Google Calendar", command=lambda: add_events_to_google_calendar(high_impact_events), bg='purple', fg='white')
+    add_to_calendar_button = tk.Button(root, text="Add High Impact Events to Google Calendar", command=add_high_impact_events_from_csv, bg='purple', fg='white')
     add_to_calendar_button.pack(pady=5)
 
     root.mainloop()
