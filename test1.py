@@ -53,6 +53,7 @@ def add_events_to_google_calendar(data):
             # Handle "All Day" event
             if not time_str or time_str.lower() == "all day":
                 start_datetime = datetime.datetime.strptime(date_str, '%a %b %d')
+                start_datetime = start_datetime.replace(year=2025)  # Ensure the year is 2025
                 end_datetime = start_datetime + datetime.timedelta(days=1)
             else:
                 # Handling 12-hour format time
@@ -62,10 +63,12 @@ def add_events_to_google_calendar(data):
                         time_str = f"0{time_str}"  # Add leading zero if necessary
                     start_time_str = f"{date_str} {time_str.lower()}"
                     start_datetime = datetime.datetime.strptime(start_time_str, '%a %b %d %I%M%p')
+                    start_datetime = start_datetime.replace(year=2025)  # Ensure the year is 2025
                 else:
                     # Assume times are in 24-hour format if not AM/PM
                     start_time_str = f"{date_str} {time_str}:00"  # format it correctly
                     start_datetime = datetime.datetime.strptime(start_time_str, '%a %b %d %H%M:%S')
+                    start_datetime = start_datetime.replace(year=2025)  # Ensure the year is 2025
 
                 end_datetime = start_datetime + datetime.timedelta(hours=1)
 
@@ -160,8 +163,10 @@ def save_to_csv(data, filename):
 
 # Start scraping and display success/failure message
 def start_scraping():
+    global high_impact_events
     url = 'https://www.forexfactory.com/calendar'
     filename = 'forex_calendar.csv'
+    global high_impact_filename 
     high_impact_filename = 'high_impact_events.csv'
     
     data = scrape_with_selenium(url)
@@ -177,7 +182,7 @@ def start_scraping():
         print(f"High impact data saved to {high_impact_filename}")
         
         # Add high impact events to Google Calendar
-        add_events_to_google_calendar(high_impact_events)
+        #add_events_to_google_calendar(high_impact_events)
     else:
         messagebox.showerror("Error", "Failed to scrape data.")
 
@@ -219,7 +224,7 @@ def main():
     show_high_impact_button = tk.Button(root, text="Show High Impact Events", command=lambda: display_csv_data('high_impact_events.csv'), bg='dark red', fg='white')
     show_high_impact_button.pack(pady=5)
     
-    add_to_calendar_button = tk.Button(root, text="Add High Impact Events to Google Calendar", command=add_high_impact_events_from_csv, bg='purple', fg='white')
+    add_to_calendar_button = tk.Button(root, text="Add High Impact Events to Google Calendar", command=lambda: add_events_to_google_calendar(high_impact_events), bg='purple', fg='white')
     add_to_calendar_button.pack(pady=5)
 
     root.mainloop()

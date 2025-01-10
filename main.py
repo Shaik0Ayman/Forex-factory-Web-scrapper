@@ -52,7 +52,7 @@ def add_events_to_google_calendar(data):
         try:
             # Handle "All Day" event
             if not time_str or time_str.lower() == "all day":
-                start_datetime = datetime.datetime.strptime(date_str, '%a %b %d')
+                start_datetime = datetime.datetime.strptime(date_str, '%a %b %d %Y')
                 end_datetime = start_datetime + datetime.timedelta(days=1)
             else:
                 # Handling 12-hour format time
@@ -61,12 +61,13 @@ def add_events_to_google_calendar(data):
                     if len(time_str) < 4:
                         time_str = f"0{time_str}"  # Add leading zero if necessary
                     start_time_str = f"{date_str} {time_str.lower()}"
-                    start_datetime = datetime.datetime.strptime(start_time_str, '%a %b %d %I%M%p')
+                    start_datetime = datetime.datetime.strptime(start_time_str, '%a %b %d %Y %I%M%p')
+                    start_datetime = start_datetime.replace(year=2025)
                 else:
                     # Assume times are in 24-hour format if not AM/PM
                     start_time_str = f"{date_str} {time_str}:00"  # format it correctly
-                    start_datetime = datetime.datetime.strptime(start_time_str, '%a %b %d %H%M:%S')
-
+                    start_datetime = datetime.datetime.strptime(start_time_str, '%a %b %d %Y %H%M:%S')
+                    start_datetime = start_datetime.replace(year=2025)
                 end_datetime = start_datetime + datetime.timedelta(hours=1)
 
         except ValueError as ve:
@@ -139,6 +140,8 @@ def parse_calendar(soup):
                     last_valid_date = date
                 else:
                     date = last_valid_date
+                    
+                date += " 2025" 
                 
                 event = row.find('td', {'class': 'event'}).get_text(strip=True) if row.find('td', {'class': 'event'}) else "N/A"
                 time = row.find('td', {'class': 'calendar__cell calendar__time'}).get_text(strip=True) if row.find('td', {'class': 'calendar__cell calendar__time'}) else "N/A"

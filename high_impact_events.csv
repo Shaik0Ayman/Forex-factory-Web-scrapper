@@ -1,5 +1,10 @@
 CURRENCY,DATE,TIME,EVENT,IMPACT
-EUR,MonJan 6,All Day,German Prelim CPI m/m,High
-CHF,TueJan 7,1:00pm,CPI m/m,High
-USD,TueJan 7,,ISM Services PMI,High
-USD,TueJan 7,,JOLTS Job Openings,High
+EUR,MonJan 6 2025,All Day,German Prelim CPI m/m,High
+CHF,TueJan 7 2025,1:00pm,CPI m/m,High
+USD,TueJan 7 2025,,ISM Services PMI,High
+USD,TueJan 7 2025,,JOLTS Job Openings,High
+CAD,FriJan 10 2025,7:00pm,Employment Change,High
+CAD,FriJan 10 2025,,Unemployment Rate,High
+USD,FriJan 10 2025,,Average Hourly Earnings m/m,High
+USD,FriJan 10 2025,,Non-Farm Employment Change,High
+USD,FriJan 10 2025,,Unemployment Rate,High

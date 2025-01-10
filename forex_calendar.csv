@@ -1,105 +1,106 @@
 CURRENCY,DATE,TIME,EVENT,IMPACT
-N/A,N/A,N/A,N/A,N/A
-N/A,N/A,N/A,N/A,N/A
-N/A,N/A,N/A,N/A,N/A
-N/A,N/A,N/A,N/A,N/A
-USD,SunJan 5,4:00am,FOMC Member Daly Speaks,Low
-USD,SunJan 5,,FOMC Member Kugler Speaks,Low
-USD,SunJan 5,11:45pm,FOMC Member Daly Speaks,Low
-N/A,SunJan 5,N/A,N/A,N/A
-CNY,MonJan 6,7:15am,Caixin Services PMI,Low
-EUR,MonJan 6,All Day,Italian Bank Holiday,Non-Economic
-EUR,MonJan 6,All Day,German Prelim CPI m/m,High
-CHF,MonJan 6,1:00pm,Retail Sales y/y,Low
-EUR,MonJan 6,1:45pm,Spanish Services PMI,Low
-EUR,MonJan 6,2:15pm,Italian Services PMI,Low
-EUR,MonJan 6,2:20pm,French Final Services PMI,Low
-EUR,MonJan 6,2:25pm,German Final Services PMI,Low
-EUR,MonJan 6,2:30pm,Final Services PMI,Low
-EUR,MonJan 6,3:00pm,Sentix Investor Confidence,Low
-GBP,MonJan 6,,Final Services PMI,Low
-USD,MonJan 6,8:00pm,FOMC Member Cook Speaks,Low
-USD,MonJan 6,8:15pm,Final Services PMI,Medium
-USD,MonJan 6,8:30pm,Factory Orders m/m,Low
-N/A,MonJan 6,N/A,N/A,N/A
-JPY,TueJan 7,5:20am,Monetary Base y/y,Low
-GBP,TueJan 7,5:31am,BRC Retail Sales Monitor y/y,Low
-AUD,TueJan 7,6:00am,Building Approvals m/m,Low
-JPY,TueJan 7,9:05am,10-y Bond Auction,Low
-GBP,TueJan 7,12:30pm,Halifax HPI m/m,Low
-CHF,TueJan 7,1:00pm,CPI m/m,High
-EUR,TueJan 7,1:15pm,French Prelim CPI m/m,Low
-EUR,TueJan 7,2:30pm,Italian Monthly Unemployment Rate,Low
-GBP,TueJan 7,3:00pm,Construction PMI,Medium
-GBP,TueJan 7,,Housing Equity Withdrawal q/q,Low
-EUR,TueJan 7,3:30pm,Core CPI Flash Estimate y/y,Medium
-EUR,TueJan 7,,CPI Flash Estimate y/y,Medium
-EUR,TueJan 7,,Italian Prelim CPI m/m,Low
-EUR,TueJan 7,,Unemployment Rate,Low
-GBP,TueJan 7,3:32pm,30-y Bond Auction,Low
-USD,TueJan 7,6:30pm,FOMC Member Barkin Speaks,Low
-CAD,TueJan 7,7:00pm,Trade Balance,Low
-USD,TueJan 7,,Trade Balance,Low
-NZD,TueJan 7,8:24pm,GDT Price Index,Low
-CAD,TueJan 7,8:30pm,Ivey PMI,Medium
-USD,TueJan 7,,ISM Services PMI,High
-USD,TueJan 7,,JOLTS Job Openings,High
-USD,TueJan 7,11:31pm,10-y Bond Auction,Low
-N/A,TueJan 7,N/A,N/A,N/A
-N/A,WedJan 8,N/A,N/A,N/A
-N/A,,N/A,N/A,N/A
-N/A,,N/A,N/A,N/A
-N/A,,N/A,N/A,N/A
-N/A,,N/A,N/A,N/A
-N/A,,N/A,N/A,N/A
-N/A,,N/A,N/A,N/A
-N/A,,N/A,N/A,N/A
-N/A,,N/A,N/A,N/A
-N/A,,N/A,N/A,N/A
-N/A,,N/A,N/A,N/A
-N/A,,N/A,N/A,N/A
-N/A,,N/A,N/A,N/A
-N/A,,N/A,N/A,N/A
-N/A,,N/A,N/A,N/A
-N/A,,N/A,N/A,N/A
-N/A,ThuJan 9,N/A,N/A,N/A
-N/A,,N/A,N/A,N/A
-N/A,,N/A,N/A,N/A
-N/A,,N/A,N/A,N/A
-N/A,,N/A,N/A,N/A
-N/A,,N/A,N/A,N/A
-N/A,,N/A,N/A,N/A
-N/A,,N/A,N/A,N/A
-N/A,,N/A,N/A,N/A
-N/A,,N/A,N/A,N/A
-N/A,,N/A,N/A,N/A
-N/A,,N/A,N/A,N/A
-N/A,,N/A,N/A,N/A
-N/A,,N/A,N/A,N/A
-N/A,,N/A,N/A,N/A
-N/A,,N/A,N/A,N/A
-N/A,,N/A,N/A,N/A
-N/A,,N/A,N/A,N/A
-N/A,,N/A,N/A,N/A
-N/A,,N/A,N/A,N/A
-N/A,FriJan 10,N/A,N/A,N/A
-N/A,,N/A,N/A,N/A
-N/A,,N/A,N/A,N/A
-N/A,,N/A,N/A,N/A
-N/A,,N/A,N/A,N/A
-N/A,,N/A,N/A,N/A
-N/A,,N/A,N/A,N/A
-N/A,,N/A,N/A,N/A
-N/A,,N/A,N/A,N/A
-N/A,,N/A,N/A,N/A
-N/A,,N/A,N/A,N/A
-N/A,,N/A,N/A,N/A
-N/A,,N/A,N/A,N/A
-N/A,,N/A,N/A,N/A
-N/A,,N/A,N/A,N/A
-N/A,,N/A,N/A,N/A
-N/A,,N/A,N/A,N/A
-N/A,,N/A,N/A,N/A
-N/A,,N/A,N/A,N/A
-N/A,,N/A,N/A,N/A
-N/A,SatJan 11,N/A,N/A,N/A
+N/A,N/A 2025,N/A,N/A,N/A
+N/A,N/A 2025,N/A,N/A,N/A
+N/A,N/A 2025,N/A,N/A,N/A
+N/A,N/A 2025,N/A,N/A,N/A
+USD,SunJan 5 2025,4:00am,FOMC Member Daly Speaks,Low
+USD,SunJan 5 2025,,FOMC Member Kugler Speaks,Low
+USD,SunJan 5 2025,11:45pm,FOMC Member Daly Speaks,Low
+N/A,SunJan 5 2025,N/A,N/A,N/A
+CNY,MonJan 6 2025,7:15am,Caixin Services PMI,Low
+EUR,MonJan 6 2025,All Day,Italian Bank Holiday,Non-Economic
+EUR,MonJan 6 2025,All Day,German Prelim CPI m/m,High
+CHF,MonJan 6 2025,1:00pm,Retail Sales y/y,Low
+EUR,MonJan 6 2025,1:45pm,Spanish Services PMI,Low
+EUR,MonJan 6 2025,2:15pm,Italian Services PMI,Low
+EUR,MonJan 6 2025,2:20pm,French Final Services PMI,Low
+EUR,MonJan 6 2025,2:25pm,German Final Services PMI,Low
+EUR,MonJan 6 2025,2:30pm,Final Services PMI,Low
+EUR,MonJan 6 2025,3:00pm,Sentix Investor Confidence,Low
+GBP,MonJan 6 2025,,Final Services PMI,Low
+USD,MonJan 6 2025,8:00pm,FOMC Member Cook Speaks,Low
+USD,MonJan 6 2025,8:15pm,Final Services PMI,Medium
+USD,MonJan 6 2025,8:30pm,Factory Orders m/m,Low
+N/A,MonJan 6 2025,N/A,N/A,N/A
+JPY,TueJan 7 2025,5:20am,Monetary Base y/y,Low
+GBP,TueJan 7 2025,5:31am,BRC Retail Sales Monitor y/y,Low
+AUD,TueJan 7 2025,6:00am,Building Approvals m/m,Low
+JPY,TueJan 7 2025,9:05am,10-y Bond Auction,Low
+GBP,TueJan 7 2025,12:30pm,Halifax HPI m/m,Low
+CHF,TueJan 7 2025,1:00pm,CPI m/m,High
+EUR,TueJan 7 2025,1:15pm,French Prelim CPI m/m,Low
+EUR,TueJan 7 2025,2:30pm,Italian Monthly Unemployment Rate,Low
+GBP,TueJan 7 2025,3:00pm,Construction PMI,Medium
+GBP,TueJan 7 2025,,Housing Equity Withdrawal q/q,Low
+EUR,TueJan 7 2025,3:30pm,Core CPI Flash Estimate y/y,Medium
+EUR,TueJan 7 2025,,CPI Flash Estimate y/y,Medium
+EUR,TueJan 7 2025,,Italian Prelim CPI m/m,Low
+EUR,TueJan 7 2025,,Unemployment Rate,Low
+GBP,TueJan 7 2025,3:32pm,30-y Bond Auction,Low
+USD,TueJan 7 2025,6:30pm,FOMC Member Barkin Speaks,Low
+CAD,TueJan 7 2025,7:00pm,Trade Balance,Low
+USD,TueJan 7 2025,,Trade Balance,Low
+NZD,TueJan 7 2025,8:24pm,GDT Price Index,Low
+CAD,TueJan 7 2025,8:30pm,Ivey PMI,Medium
+USD,TueJan 7 2025,,ISM Services PMI,High
+USD,TueJan 7 2025,,JOLTS Job Openings,High
+USD,TueJan 7 2025,11:31pm,10-y Bond Auction,Low
+N/A,TueJan 7 2025,N/A,N/A,N/A
+N/A,WedJan 8 2025,N/A,N/A,N/A
+N/A, 2025,N/A,N/A,N/A
+N/A, 2025,N/A,N/A,N/A
+N/A, 2025,N/A,N/A,N/A
+N/A, 2025,N/A,N/A,N/A
+N/A, 2025,N/A,N/A,N/A
+N/A, 2025,N/A,N/A,N/A
+N/A, 2025,N/A,N/A,N/A
+N/A, 2025,N/A,N/A,N/A
+N/A, 2025,N/A,N/A,N/A
+N/A, 2025,N/A,N/A,N/A
+N/A, 2025,N/A,N/A,N/A
+N/A, 2025,N/A,N/A,N/A
+N/A, 2025,N/A,N/A,N/A
+N/A, 2025,N/A,N/A,N/A
+N/A, 2025,N/A,N/A,N/A
+N/A,ThuJan 9 2025,N/A,N/A,N/A
+N/A, 2025,N/A,N/A,N/A
+N/A, 2025,N/A,N/A,N/A
+N/A, 2025,N/A,N/A,N/A
+N/A, 2025,N/A,N/A,N/A
+N/A, 2025,N/A,N/A,N/A
+N/A, 2025,N/A,N/A,N/A
+N/A, 2025,N/A,N/A,N/A
+N/A, 2025,N/A,N/A,N/A
+N/A, 2025,N/A,N/A,N/A
+N/A, 2025,N/A,N/A,N/A
+N/A, 2025,N/A,N/A,N/A
+N/A, 2025,N/A,N/A,N/A
+N/A, 2025,N/A,N/A,N/A
+N/A, 2025,N/A,N/A,N/A
+N/A, 2025,N/A,N/A,N/A
+N/A, 2025,N/A,N/A,N/A
+N/A, 2025,N/A,N/A,N/A
+N/A, 2025,N/A,N/A,N/A
+N/A, 2025,N/A,N/A,N/A
+N/A, 2025,N/A,N/A,N/A
+USD,FriJan 10 2025,12:00am,FOMC Member Schmid Speaks,Low
+USD,FriJan 10 2025,12:05am,FOMC Member Bowman Speaks,Low
+JPY,FriJan 10 2025,5:00am,Household Spending y/y,Low
+JPY,FriJan 10 2025,10:30am,Leading Indicators,Low
+CHF,FriJan 10 2025,12:15pm,Unemployment Rate,Low
+EUR,FriJan 10 2025,1:15pm,French Consumer Spending m/m,Low
+EUR,FriJan 10 2025,,French Industrial Production m/m,Low
+EUR,FriJan 10 2025,2:30pm,Italian Retail Sales m/m,Low
+CNY,FriJan 10 2025,10th-15th,New Loans,Medium
+CNY,FriJan 10 2025,10th-15th,M2 Money Supply y/y,Low
+GBP,FriJan 10 2025,Tentative,NIESR GDP Estimate,Low
+CAD,FriJan 10 2025,7:00pm,Employment Change,High
+CAD,FriJan 10 2025,,Unemployment Rate,High
+CAD,FriJan 10 2025,,Building Permits m/m,Low
+USD,FriJan 10 2025,,Average Hourly Earnings m/m,High
+USD,FriJan 10 2025,,Non-Farm Employment Change,High
+USD,FriJan 10 2025,,Unemployment Rate,High
+USD,FriJan 10 2025,8:30pm,Prelim UoM Consumer Sentiment,Medium
+USD,FriJan 10 2025,,Prelim UoM Inflation Expectations,Medium
+N/A,FriJan 10 2025,N/A,N/A,N/A
+N/A,SatJan 11 2025,N/A,N/A,N/A
